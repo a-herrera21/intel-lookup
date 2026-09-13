@@ -140,6 +140,16 @@ Real steps taken to build this, including the mistakes I ran into and how
 I fixed them. Screenshots are from actual runs against live API data, not
 mocked output.
 
+### Tooling
+
+I built this with [Claude Code](https://claude.com/product/claude-code)
+as my coding assistant, directing it with specific prompts for each phase
+rather than having it design the project on its own. Claude Code was
+already installed and set up on this machine from my previous
+[ssh-log-analyzer](https://github.com/a-herrera21/ssh-log-analyzer) project,
+so no fresh install was needed here — just `claude` in the project
+directory to pick up where that setup left off.
+
 ### Phase 1 — Core lookup tool
 
 Built with a single prompt to Claude Code specifying the exact behavior:
